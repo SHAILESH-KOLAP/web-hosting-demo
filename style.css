@@ -28,3 +28,25 @@ body {
   width: 100%;
   padding: 8px 16px;
 }
+
+.main-header > div {
+  display: inline-block; /*Change div from block level to inline to fit logo with navbar*/
+}
+
+.main-nav {
+  display: inline-block; /*Change nav from block level to inline to fit logo with navbar*/
+  text-align: right; /*Place navbar to right of the page*/
+  width: calc(
+    100% - 55px
+  ); /*Take widh of page - width of logo and white space between div and navbar*/
+}
+
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__item {
+  display: inline-block; /*Change list item from block level to inline*/
+}
