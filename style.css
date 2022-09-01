@@ -31,14 +31,23 @@ body {
 
 .main-header > div {
   display: inline-block; /*Change div from block level to inline to fit logo with navbar*/
+  vertical-align: middle; /*Align navbar and logo into middele; need to add to main-nav also*/
+}
+
+.main-header__brand {
+  color: #0e4f1f;
+  font-weight: bold; /*Make logo bolder*/
+  font-size: 25px; /*Increase Logo size*/
+  text-decoration: none; /*Remove underline from logo*/
 }
 
 .main-nav {
   display: inline-block; /*Change nav from block level to inline to fit logo with navbar*/
   text-align: right; /*Place navbar to right of the page*/
   width: calc(
-    100% - 55px
+    100% - 84px
   ); /*Take widh of page - width of logo and white space between div and navbar*/
+  vertical-align: middle; /*Align navbar and logo into middele; need to add to logo div also*/
 }
 
 .main-nav__items {
