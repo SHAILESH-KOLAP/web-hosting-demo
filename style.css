@@ -43,6 +43,18 @@ body {
   border-radius: 7px;
 }
 
+.plan__title {
+  color: #0e4f1f;
+}
+
+.plan__price {
+  color: #858585;
+}
+
+.plan--highlighted .plan__price {
+  color: white;
+}
+
 .plan__features {
   list-style: none;
   margin: 0;
@@ -66,7 +78,7 @@ body {
 
 .main-header > div {
   display: inline-block; /*Change div from block level to inline to fit logo with navbar*/
-  vertical-align: middle; /*Align navbar and logo into middele; need to add to main-nav also*/
+  vertical-align: middle; /*Align navbar and logo into middle; need to add to main-nav also*/
 }
 
 .main-header__brand {
@@ -81,8 +93,8 @@ body {
   text-align: right; /*Place navbar to right of the page*/
   width: calc(
     100% - 84px
-  ); /*Take widh of page - width of logo and white space between div and navbar*/
-  vertical-align: middle; /*Align navbar and logo into middele; need to add to logo div also*/
+  ); /*Take width of page - width of logo and white space between div and navbar*/
+  vertical-align: middle; /*Align navbar and logo into middle; need to add to logo div also*/
 }
 
 .main-nav__items {
