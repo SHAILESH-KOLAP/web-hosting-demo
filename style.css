@@ -76,6 +76,12 @@ body {
   cursor: pointer;
 }
 
+.button:hover,
+.button:active {
+  background: white;
+  color: #0e4f1f;
+}
+
 #product-overview h1 {
   color: white;
   font-family: "Anton", sans-serif;
