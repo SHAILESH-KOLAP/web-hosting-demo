@@ -44,3 +44,7 @@ main {
 #premium .package__title {
   color: white;
 }
+
+#premium .package__subtitle {
+  color: #bbb;
+}
