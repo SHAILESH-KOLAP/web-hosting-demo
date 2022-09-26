@@ -40,6 +40,18 @@ main {
 
 #free {
   background: rgba(234, 252, 237, 0.95);
+  float: right;
+  border-right: none;
+  border-left: 4px solid #0e4f1f;
+  text-align: right;
+}
+
+#free:hover,
+#free:active {
+  border-color: #ff5454;
+}
+.clearfix {
+  clear: both; /*Any element after this not respect float  */
 }
 
 #premium {
