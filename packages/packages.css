@@ -2,6 +2,14 @@ main {
   padding-top: 32px;
 }
 
+.background {
+  background: url("../Images/plans-background.jpg");
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /*Move Image to back of content; Need to have position:Fixed*/
+}
+
 .package {
   width: 80%;
   margin: 16px 0;
