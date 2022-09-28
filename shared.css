@@ -12,6 +12,7 @@ body {
   width: 100%;
   padding: 8px 16px;
   position: fixed;
+  z-index: 1; /*Place navbar on top of packages*/
 }
 
 .main-header > div {
